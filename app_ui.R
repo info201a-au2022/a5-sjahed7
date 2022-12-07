@@ -5,6 +5,7 @@ source("analysis.R")
 intro_page <- fluidPage(
   headerPanel("Introduction"),
   p(strong("By: Sabrina Jahed")),
+  img(src="emissions.png", class = "intro"),
   p("For this project, I have decided to analyze the cumulative carbon
     emissions, the populations, the annual carbon emissions, and the years of
     their respective countries to get a better understanding of who is
